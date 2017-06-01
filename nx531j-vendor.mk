@@ -153,7 +153,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx531j/proprietary/lib64/libswresample.so:system/lib64/libswresample.so \
     vendor/nubia/nx531j/proprietary/lib64/libswscale.so:system/lib64/libswscale.so \
     vendor/nubia/nx531j/proprietary/vendor/bin/pd-mapper:system/vendor/bin/pd-mapper \
-    vendor/nubia/nx531j/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
+#    vendor/nubia/nx531j/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/nubia/nx531j/proprietary/vendor/bin/qseeproxydaemon:system/vendor/bin/qseeproxydaemon \
     vendor/nubia/nx531j/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/nubia/nx531j/proprietary/vendor/firmware/libpn548ad_fw.so:system/vendor/firmware/libpn548ad_fw.so \
