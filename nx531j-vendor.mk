@@ -625,8 +625,7 @@ PRODUCT_PACKAGES += \
     dpmapi \
     qcnvitems \
     qcrilhook \
-    tcmclient \
-    telephony-static-config
+    tcmclient
 PRODUCT_COPY_FILES += \
     vendor/nubia/nx531j/proprietary/framework/embmslibrary.jar:system/framework/embmslibrary.jar \
     vendor/nubia/nx531j/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
