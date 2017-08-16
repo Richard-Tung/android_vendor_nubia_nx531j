@@ -120,6 +120,8 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx531j/proprietary/framework/com.quicinc.wbc.jar:system/framework/com.quicinc.wbc.jar \
     vendor/nubia/nx531j/proprietary/framework/com.quicinc.wbcservice.jar:system/framework/com.quicinc.wbcservice.jar \
     vendor/nubia/nx531j/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
+    vendor/nubia/nx531j/proprietary/framework/embmslibrary.jar:system/framework/embmslibrary.jar \
+    vendor/nubia/nx531j/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
     vendor/nubia/nx531j/proprietary/lib64/hw/audio.primary.msm8996.so:system/lib64/hw/audio.primary.msm8996.so \
     vendor/nubia/nx531j/proprietary/lib64/hw/fingerprint.msm8996.so:system/lib64/hw/fingerprint.msm8996.so \
     vendor/nubia/nx531j/proprietary/lib64/hw/sensors.oem.so:system/lib64/hw/sensors.oem.so \
@@ -627,9 +629,7 @@ PRODUCT_PACKAGES += \
     qcrilhook \
     tcmclient
 PRODUCT_COPY_FILES += \
-    vendor/nubia/nx531j/proprietary/framework/embmslibrary.jar:system/framework/embmslibrary.jar \
     vendor/nubia/nx531j/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
-    vendor/nubia/nx531j/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
     vendor/nubia/nx531j/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/nubia/nx531j/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
     vendor/nubia/nx531j/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
